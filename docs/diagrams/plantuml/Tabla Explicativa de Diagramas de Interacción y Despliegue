@@ -1,0 +1,6 @@
+Paso 	Interacción 	Descripción
+1 	Employee -> SPA 	El usuario introduce las fechas de su ausencia y envía la solicitud.
+2 	SPA -> API 	El frontend envía una petición POST a la API con los datos de la solicitud.
+3 	API -> LeaveService 	El controlador de la API invoca al servicio de negocio para procesar la solicitud.
+4 	LeaveService -> ... 	El servicio valida las reglas (ej. saldo de vacaciones) y notifica al gerente.
+5 	... -> Employee 	El sistema confirma al empleado que su solicitud ha sido enviada con éxito.
