@@ -1,0 +1,9 @@
+
+    Tabla Explicativa:
+
+Elemento 	Descripción
+Servidor Cloud 	Infraestructura proporcionada por un proveedor como AWS, Azure o Google Cloud.
+Kubernetes Cluster 	Orquestador de contenedores para gestionar el despliegue, escalado y operación de la API y la SPA.
+API Gateway Pod 	Contenedor Docker ejecutando la aplicación backend de Spring Boot.
+SPA Pod 	Contenedor Docker con un servidor Nginx para servir los archivos estáticos de la aplicación frontend.
+PostgreSQL Server 	Servidor de base de datos donde reside la base de datos del módulo.
